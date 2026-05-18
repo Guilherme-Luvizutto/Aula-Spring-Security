@@ -3,6 +3,8 @@ package com.gpl.security.models;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.UUID;
+
 @Data
 @Entity
 @Table(name = "tbl_pessoa")
